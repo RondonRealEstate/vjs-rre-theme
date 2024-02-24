@@ -1,7 +1,16 @@
 .video-js {
+  /* The base font size controls the size of everything, not just text.
+     All dimensions use em-based sizes so that the scale along with the font size.
+     Try increasing it to 15px and see what happens. */
   font-size: 15px;
+  /* The main font color changes the ICON COLORS as well as the text */
   color: #ffff00;
 }
+
+/* The "Big Play Button" is the play button that shows before the video plays.
+   To center it set the align values to center and middle. The typical location
+   of the button is the center, but there is trend towards moving it to a corner
+   where it gets out of the way of valuable content in the poster image.*/
 .vjs-rre-theme .vjs-big-play-button {
   /* The font size is what makes the big play button...big. 
      All width/height values use ems, which are a multiple of the font size.
@@ -25,6 +34,9 @@
   margin-left: 0em;
   margin-top: 0em;
 }
+
+/* The default color of control backgrounds is mostly black but with a little
+   bit of blue so it can still be seen on all-black video frames, which are common. */
 .vjs-rre-theme .vjs-control-bar,
 .vjs-rre-theme .vjs-big-play-button,
 .vjs-rre-theme .vjs-menu-button .vjs-menu-content {
