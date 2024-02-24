@@ -2,7 +2,7 @@
   font-size: 15px;
   color: #ffff00;
 }
-.video-js .vjs-big-play-button {
+.vjs-rre-theme .vjs-big-play-button {
   /* The font size is what makes the big play button...big. 
      All width/height values use ems, which are a multiple of the font size.
      If the .video-js font-size is 10px, then 3em equals 30px.*/
@@ -25,9 +25,9 @@
   margin-left: 0em;
   margin-top: 0em;
 }
-.video-js .vjs-control-bar,
-.video-js .vjs-big-play-button,
-.video-js .vjs-menu-button .vjs-menu-content {
+.vjs-rre-theme .vjs-control-bar,
+.vjs-rre-theme .vjs-big-play-button,
+.vjs-rre-theme .vjs-menu-button .vjs-menu-content {
   /* IE8 - has no alpha support */
   background-color: #ffff00;
   /* Opacity: 1.0 = 100%, 0.0 = 0% */
@@ -35,21 +35,21 @@
 }
 
 /* Slider - used for Volume bar and Progress bar */
-.video-js .vjs-slider {
+.vjs-rre-theme .vjs-slider {
   background-color: #ffffa8;
   background-color: rgba(255, 255, 168, 0.5);
 }
 
 /* The slider bar color is used for the progress bar and the volume bar
    (the first two can be removed after a fix that's coming) */
-.video-js .vjs-volume-level,
-.video-js .vjs-play-progress,
-.video-js .vjs-slider-bar {
+.vjs-rre-theme .vjs-volume-level,
+.vjs-rre-theme .vjs-play-progress,
+.vjs-rre-theme .vjs-slider-bar {
   background: #ffff00;
 }
 
 /* The main progress bar also has a bar that shows how much has been loaded. */
-.video-js .vjs-load-progress {
+.vjs-rre-theme .vjs-load-progress {
   /* For IE8 we'll lighten the color */
   background: white;
   /* Otherwise we'll rely on stacked opacities */
@@ -58,7 +58,7 @@
 
 /* The load progress bar also has internal divs that represent
    smaller disconnected loaded time ranges */
-.video-js .vjs-load-progress div {
+.vjs-rre-theme .vjs-load-progress div {
   /* For IE8 we'll lighten the color */
   background: white;
   /* Otherwise we'll rely on stacked opacities */
